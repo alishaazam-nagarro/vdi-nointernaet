@@ -1,0 +1,5 @@
+toCC: indexArr1 reduce ((index, acc = "") -> 
+		if (acc == "") 
+			values1[index] 
+		else 
+			acc ++ "," ++ values1[index]
